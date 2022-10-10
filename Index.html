@@ -47,13 +47,7 @@
             display: flex;  
             font-size: 20px;
             margin-bottom: 50px;
-        }
-        #BtnOfertas{
-            display: flex;            
-            border-radius: 10px;            
-            background-color: red;
-            color: #ffff;
-        }  
+        }          
         div{            
             margin-top: 55px;
         }
@@ -61,6 +55,34 @@
             margin-right: 8px;            
         }      
         
+        @media screen and (max-width: 900px) {
+            .banner{                
+                width: 400px;
+            }
+            main{
+                width: 200px;
+                padding: 100px;  
+            }
+            .subTitulo{
+            font-size: 22px;
+            margin-bottom: 50px;
+        }
+        .texto1{
+            display: flex;  
+            font-size: 18px;
+            margin-bottom: 50px;
+        }
+        .texto2{
+            display: flex;  
+            font-size: 18px;
+            margin-bottom: 50px;
+        }          
+            .imgOferta{
+                width: 280px;                
+                padding: 1px 100px 1px 1px;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -79,8 +101,8 @@
             com preços exclusivos!</p>        
         
             <!--Botão para ofertas-->
-        <a href="https://issuu.com/irmaosboa/docs/folheto_cliente_boa?fr=sYjRmODQzMzE3MTM">
-            <img src="https://image.mail.smrholding.com/lib/fe3311737164047c701373/m/1/0097b79a-b78d-4035-898a-e141bd5a1164.png">
+        <a class="btnOferta" href="https://issuu.com/irmaosboa/docs/folheto_cliente_boa?fr=sYjRmODQzMzE3MTM">
+            <img class="imgOferta" src="https://image.mail.smrholding.com/lib/fe3311737164047c701373/m/1/0097b79a-b78d-4035-898a-e141bd5a1164.png" >
            </a>    
     <div class="divisao">
            <!--Botão/link Facebook-->
